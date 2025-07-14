@@ -1,0 +1,115 @@
+.body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: url(/img/fondo.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  background-color: rgba(14, 34, 63, 0.95);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-bottom: 2px solid #1b3b6f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-image {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.planet-page {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+
+.planet-page__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.planet-page__title {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.planet-page__title-image {
+  width: 90px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.planet-page__info-box {
+  background-color: rgba(240, 240, 240, 0.15);
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 0 10px #00000050;
+  line-height: 1.6;
+  text-align: left;
+  }
+
+.planet-page__subsection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.planet-page__icon {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.planet-page__info-box + .planet-page__info-box {
+  margin-top: 30px;
+}
